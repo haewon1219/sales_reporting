@@ -27,20 +27,14 @@ In this project, I aimed to leverage Excel to create sales reports using a datas
 - Employed absolute references to maintain data integrity and consistency.
 - Implemented formulas to calculate daily, monthly, and yearly sales/quantity figures.
 
-
 Calculate daily sales: =SUMIFS(raw!G:G,raw!$F:$F,$E12,raw!$A:$A,report!$W$6)
-
 Calculate monthly sales: =SUMIFS(raw!G:G,raw!$F:$F,$E12,raw!$A:$A,"<=" & report!$W$6, raw!$A:$A, ">=" & report!$W$5)
-
 Calculate yearly sales: =SUMIFS(raw!G:G,raw!$F:$F,$E12,raw!$A:$A,"<=" & report!$W$6)
 
 ### Pivot Table Creation
 <img width="1630" alt="스크린샷 2024-04-09 오후 4 40 35" src="https://github.com/haewon1219/sales_reporting/assets/162613635/696647f9-e85b-457e-8617-82664510ec96">
 - Generated pivot tables to display total sales, sales targets, and growth rates per category.
 
-
 Retrieve the nth largest value from a range: =LARGE($B$3:$B$1048576, G4)
-
 Retrieve category based on sales: =VLOOKUP(H4,$B$4:$E$1048576,4,FALSE)
-
 Retrieve growth rate based on sales: =VLOOKUP(H4,$B$4:$E$1048576,3,FALSE)
