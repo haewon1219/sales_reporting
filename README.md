@@ -22,6 +22,7 @@ In this project, I aimed to leverage Excel to create sales reports using a datas
 
 ### Report Formatting and Structure Design
 <img width="1305" alt="스크린샷 2024-04-09 오후 5 54 59" src="https://github.com/haewon1219/sales_reporting/assets/162613635/02e529b0-39f0-426c-bc44-6ae5c3880f39">
+
 - Designed the layout and structure of the sales reports to ensure clarity and readability.
 - Established formulas and connections between raw data and report elements.
 - Employed absolute references to maintain data integrity and consistency.
